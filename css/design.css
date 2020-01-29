@@ -26,17 +26,53 @@ body {
     background-color: #00ABA9;
     border: solid white 10px;
     color: white;
+}
+
+#s-circle1 {
+    background-color: #E6563B;
 
 }
+#s-circle2 {
+    background-color: #EB9D3A;
+}
+#s-circle3 {
+    background-color: #7CB06C;
+}
+#s-circle4 {
+    background-color: #00ABA9;
+}
+
 .circles {
     /*margin: 16px;*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.s-circles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.s-circles h2 {
+    font-size: 15px;
+    margin: 0;
+}
+
 .work-text {
     margin-top: 50px;
     display: flex;
     align-self: flex-end;
     justify-content: center;
+}
+
+#apple {
+    border: 15px solid #E6E6E6;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin: 0;
 }
