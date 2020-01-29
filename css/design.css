@@ -76,3 +76,8 @@ body {
 h2 {
     margin: 0;
 }
+@media (max-width: 575.98px) {
+    hr {
+        display: none;
+    }
+}
