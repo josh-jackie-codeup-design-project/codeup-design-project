@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Anton', sans-serif;
 }
 body {
@@ -71,6 +71,7 @@ h2 {
 #little-circle-row, .s-circle-row {
     padding: 0;
 }
+
 /*extra small*/
 @media (max-width: 575.98px) {
     .hide-small{
@@ -80,6 +81,9 @@ h2 {
         display: flex;
         align-items: center;
         margin-bottom: 10px;
+    }
+    .medium-start {
+        display: none;
     }
 }
 /*small screen*/
@@ -130,6 +134,9 @@ h2 {
     .featured {
         font-size: 12px;
     }
+    .medium-start {
+        display: none;
+    }
 }
 /*medium screen*/
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -146,6 +153,15 @@ h2 {
     }
     .apple {
         border: 8px solid #E6E6E6;
+    }
+    .thumbnail{
+        padding: 0;
+        border: 2px solid #E6E6E6;
+        width: 18px;
+        height: 18px;
+    }
+    h3 {
+        font-size: 15px;
     }
 
 }
