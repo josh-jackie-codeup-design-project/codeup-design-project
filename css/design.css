@@ -18,16 +18,16 @@ body {
 #circle4 {
     background-color: #00ABA9;
 }
-#s-circle1 {
+.s-circle1 {
     background-color: #E6563B;
 }
-#s-circle2 {
+.s-circle2 {
     background-color: #EB9D3A;
 }
-#s-circle3 {
+.s-circle3 {
     background-color: #7CB06C;
 }
-#s-circle4 {
+.s-circle4 {
     background-color: #00ABA9;
 }
 .circles {
@@ -59,7 +59,7 @@ body {
     /*align-self: flex-end;*/
     justify-content: center;
 }
-#apple {
+.apple {
     padding: 0;
     border: 15px solid #E6E6E6;
     width: 100%;
@@ -76,6 +76,9 @@ h2 {
     /*extra small*/
 @media (max-width: 575.98px) {
     hr {
+        display: none;
+    }
+    #mac {
         display: none;
     }
 }
