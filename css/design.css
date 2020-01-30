@@ -1,36 +1,25 @@
 h1, h2 {
     font-family: 'Anton', sans-serif;
 }
-
 body {
     font-family: 'Abel', sans-serif;
     background-color: #F0F0F0;
 }
 #circle1 {
     background-color: #E6563B;
-    border: solid white 10px;
-    color: white;
 }
 #circle2 {
     background-color: #EB9D3A;
-    border: solid white 10px;
-    color: white;
 
 }
 #circle3 {
     background-color: #7CB06C;
-    border: solid white 10px;
-    color: white;
 }
 #circle4 {
     background-color: #00ABA9;
-    border: solid white 10px;
-    color: white;
 }
-
 #s-circle1 {
     background-color: #E6563B;
-
 }
 #s-circle2 {
     background-color: #EB9D3A;
@@ -41,52 +30,56 @@ body {
 #s-circle4 {
     background-color: #00ABA9;
 }
-
 .circles {
     margin: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: solid white 10px;
+    color: white;
+    height: 187.5px;
 }
 .circle-row {
     display: flex;
     justify-content: center;
 }
-
 .s-circles{
     margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .s-circles h2 {
     font-size: 15px;
     margin: 0;
 }
-
 .work-text {
     margin-top: 50px;
     display: flex;
     /*align-self: flex-end;*/
     justify-content: center;
 }
-
 #apple {
     padding: 0;
     border: 15px solid #E6E6E6;
     width: 100%;
     height: auto;
 }
-
 h2 {
     margin: 0;
 }
+
+#little-circle-row, .s-circle-row {
+    padding: 0;
+}
+
+    /*extra small*/
 @media (max-width: 575.98px) {
     hr {
         display: none;
     }
 }
+    /*small screen*/
 @media (min-width: 576px) and (max-width: 767.98px) {
     .container {
         padding: 0;
@@ -94,16 +87,16 @@ h2 {
     .circles {
         margin: 0;
         padding: 0;
+        height: 100px;
+        border: 7px white solid;
     }
     .circle-row {
         display: flex;
-        align-items: center;
-        align-content: space-between;
+        justify-content: center;
     }
     .s-circle-row {
         font-size: 8px;
         display: flex;
-
     }
     .s-circles {
         margin: 0;
@@ -112,13 +105,26 @@ h2 {
     }
     .s-circles h2 {
         font-size: 8px;
-
     }
     #apple {
         padding: 0;
     }
+    #big-circle-row {
+        width: 80%;
+    }
+    #little-circle-row {
+    padding: 0;
+    }
+    h2 {
+        font-size: 20px;
+    }
 
+    .s-circle-row p {
+        font-size: 15px;
+        padding: 0;
+    }
 }
+    /*medium screen*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     .circles {
         margin: 0;
