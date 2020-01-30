@@ -157,12 +157,27 @@ h2 {
     .thumbnail{
         padding: 0;
         border: 2px solid #E6E6E6;
-        width: 18px;
-        height: 18px;
+        width: 50px;
+        height: 50px;
     }
     h3 {
-        font-size: 15px;
+        font-size: 18px;
     }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    #second-little-h3, #second-little-picture{
+        margin-top: 40px;
+    }
+
+
 
 }
 
