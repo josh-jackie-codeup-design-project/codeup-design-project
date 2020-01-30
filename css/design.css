@@ -117,6 +117,9 @@ h2 {
     .sm-nav {
         display: none;
     }
+    .med-lg-start {
+        display: none;
+    }
 }
 /*small screen*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -173,6 +176,9 @@ h2 {
     .xs-nav {
         display: none;
     }
+    .med-lg-start {
+        display: none;
+    }
 
 }
 /*medium screen*/
@@ -227,6 +233,9 @@ h2 {
     md-nav {
         display: none;
     }
+    .small-hide {
+        display: none;
+    }
 }
 @media (min-width: 992px) {
     .circles {
@@ -274,6 +283,9 @@ h2 {
     }
     .twitter-feed {
         font-size: 13px;
+    }
+    .small-hide {
+        display: none;
     }
 }
 
