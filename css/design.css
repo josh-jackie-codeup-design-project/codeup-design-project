@@ -6,6 +6,23 @@ body {
     font-family: 'Abel', sans-serif;
     background-color: #F0F0F0;
 }
+
+nav h1 {
+    font-family: 'Abel', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
 .white-nav {
     background-color: white;
     height: 100px;
@@ -97,6 +114,9 @@ h2 {
     .medium-start {
         display: none;
     }
+    .sm-nav {
+        display: none;
+    }
 }
 /*small screen*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -149,6 +169,11 @@ h2 {
     .medium-start {
         display: none;
     }
+
+    .xs-nav {
+        display: none;
+    }
+
 }
 /*medium screen*/
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -197,6 +222,10 @@ h2 {
     }
     .twitter-feed {
         font-size: 13px;
+    }
+
+    md-nav {
+        display: none;
     }
 }
 @media (min-width: 992px) {
