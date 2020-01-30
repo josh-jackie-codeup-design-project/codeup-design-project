@@ -43,13 +43,18 @@ body {
 }
 
 .circles {
-    /*margin: 16px;*/
+    margin: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.circle-row {
+    display: flex;
+    justify-content: center;
+}
 
 .s-circles{
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,11 +68,12 @@ body {
 .work-text {
     margin-top: 50px;
     display: flex;
-    align-self: flex-end;
+    /*align-self: flex-end;*/
     justify-content: center;
 }
 
 #apple {
+    padding: 0;
     border: 15px solid #E6E6E6;
     width: 100%;
     height: auto;
@@ -79,5 +85,46 @@ h2 {
 @media (max-width: 575.98px) {
     hr {
         display: none;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        padding: 0;
+    }
+    .circles {
+        margin: 0;
+        padding: 0;
+    }
+    .circle-row {
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+    }
+    .s-circle-row {
+        font-size: 8px;
+        display: flex;
+
+    }
+    .s-circles {
+        margin: 0;
+        padding: 0;
+        font-size: 8px;
+    }
+    .s-circles h2 {
+        font-size: 8px;
+
+    }
+    #apple {
+        padding: 0;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .circles {
+        margin: 0;
+        padding: 0;
+    }
+    #apple {
+        padding: 0;
     }
 }
