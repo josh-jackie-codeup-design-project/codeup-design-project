@@ -114,10 +114,6 @@ h2 {
     padding: 0;
 }
 
-#second-boy {
-}
-
-/*extra small*/
 @media (max-width: 575.98px) {
     .hide-small{
         display: none;
@@ -134,6 +130,9 @@ h2 {
         display: none;
     }
     .med-lg-start {
+        display: none;
+    }
+    #the-last {
         display: none;
     }
 }
@@ -162,9 +161,6 @@ h2 {
         padding: 0;
         font-size: 8px;
     }
-    .s-circles h2 {
-        font-size: 8px;
-    }
     #apple {
         padding: 0;
     }
@@ -188,11 +184,13 @@ h2 {
     .medium-start {
         display: none;
     }
-
     .xs-nav {
         display: none;
     }
     .med-lg-start {
+        display: none;
+    }
+    #the-last {
         display: none;
     }
 
@@ -246,12 +244,20 @@ h2 {
         font-size: 13px;
     }
 
-    md-nav {
+    .md-nav {
         display: none;
     }
     .small-hide {
         display: none;
     }
+    .work-text {
+        margin-top: 50px;
+        display: flex;
+
+        /*!*align-self: flex-end;*!*/
+        /*justify-content: center;*/
+    }
+
 }
 @media (min-width: 992px) {
     .circles {
@@ -303,6 +309,8 @@ h2 {
     .small-hide {
         display: none;
     }
+}
+@media (min-width: 1200px) {
 
 }
 
