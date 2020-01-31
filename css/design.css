@@ -114,6 +114,7 @@ h2 {
     padding: 0;
 }
 
+/*mobile*/
 @media (max-width: 575.98px) {
     .hide-small{
         display: none;
@@ -134,6 +135,11 @@ h2 {
     }
     #the-last {
         display: none;
+    }
+
+    .selected-work {
+        display: flex;
+        justify-self: center;
     }
 }
 /*small screen*/
@@ -192,6 +198,9 @@ h2 {
     }
     #the-last {
         display: none;
+    }
+    .selected-work {
+        text-align: center;
     }
 
 }
